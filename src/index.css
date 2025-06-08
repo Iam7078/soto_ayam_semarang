@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Tan Kulture';
+  src: url('/fonts/TANKULTURE-DISPLAY.woff2') format('woff2'),
+       url('/fonts/TANKULTURE-DISPLAY.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #e6e3d4;
+  --color-primary-hover: ;
+}
+
+body {
+	font-family: 'Tan Kulture', serif;
+  letter-spacing: 0.025em;
+}
+
+.font-aref {
+  font-family: 'Aref Ruqaa Ink', serif;
+}
