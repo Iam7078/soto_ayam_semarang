@@ -1,13 +1,17 @@
 // eslint-disable-next-line no-unused-vars
-import { motion } from 'framer-motion'; // Pastikan sudah diimpor
-import { fadeIn } from "../framerMotion/variants"; // Pastikan path ini benar
+import { motion } from 'framer-motion'
+import { fadeIn } from "../framerMotion/variants"
 
 export default function About() {
+
 	return (
+
 		<section id="about" className="py-16 sm:py-20 bg-gray-50">
+
 			<div className="container mx-auto px-4 sm:px-6 lg:px-8">
+
 				<div className="flex flex-col md:flex-row items-center gap-10 md:gap-16 lg:gap-20">
-					{/* Animasi untuk Gambar */}
+
 					<motion.div
 						className="w-full md:w-1/2 lg:w-2/5"
 						variants={fadeIn("right", 0.6)} // Animasi muncul dari kanan
@@ -69,8 +73,13 @@ export default function About() {
 							Datang dan rasakan sendiri keaslian cita rasa Soto Ayam Semarang yang legendaris, sebuah warisan kuliner yang patut untuk dinikmati dan diceritakan.
 						</motion.p>
 					</motion.div>
+
 				</div>
+
 			</div>
+
 		</section>
-	);
+
+	)
+
 }
