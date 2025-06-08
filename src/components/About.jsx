@@ -3,21 +3,17 @@ import { motion } from 'framer-motion'
 import { fadeIn } from "../framerMotion/variants"
 
 export default function About() {
-
 	return (
 
 		<section id="about" className="py-16 sm:py-20 bg-gray-50">
-
 			<div className="container mx-auto px-4 sm:px-6 lg:px-8">
-
 				<div className="flex flex-col md:flex-row items-center gap-10 md:gap-16 lg:gap-20">
 
-					<motion.div
-						className="w-full md:w-1/2 lg:w-2/5"
-						variants={fadeIn("right", 0.6)} // Animasi muncul dari kanan
+					<motion.div className="w-full md:w-1/2 lg:w-2/5 animate-fade-in-up"
+						variants={fadeIn("right", 0.6)}
 						initial="hidden"
 						whileInView="show"
-						viewport={{ once: false, amount: 0.3 }} // Animasi terpicu saat 30% elemen terlihat
+						viewport={{ once: false, amount: 0.3 }}
 					>
 						<img
 							src="/images/about_image.png"
@@ -26,17 +22,12 @@ export default function About() {
 						/>
 					</motion.div>
 
-					{/* Animasi untuk Konten Teks */}
-					<motion.div
-						className="w-full md:w-1/2 lg:w-3/5 text-center md:text-left"
-						variants={fadeIn("left", 0.6)} // Animasi muncul dari kiri (untuk keseluruhan blok teks)
-						initial="hidden"
-						whileInView="show"
-						viewport={{ once: false, amount: 0.3 }} // Animasi terpicu saat 30% elemen terlihat
-					>
+
+					<div className="w-full md:w-1/2 lg:w-3/5 text-center md:text-left animate-fade-in-right">
+
 						<motion.h2
 							className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mb-6 leading-tight"
-							variants={fadeIn("down", 0.8)} // Animasi terpisah untuk judul
+							variants={fadeIn("down", 0.8)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
@@ -44,10 +35,9 @@ export default function About() {
 							Kisah di Balik Lezatnya <br className="hidden sm:inline" /> <span>Soto Ayam Semarang</span>
 						</motion.h2>
 
-						{/* Kamu bisa aplikasikan fadeIn("up", delay) untuk setiap paragraf jika ingin efek berurutan */}
 						<motion.p
 							className="text-base sm:text-lg text-black leading-relaxed font-aref mb-4"
-							variants={fadeIn("up", 1)} // Delay sedikit lebih lama
+							variants={fadeIn("up", 1)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
@@ -56,7 +46,7 @@ export default function About() {
 						</motion.p>
 						<motion.p
 							className="text-base sm:text-lg text-black leading-relaxed font-aref mb-4"
-							variants={fadeIn("up", 1.2)} // Delay lebih lama lagi
+							variants={fadeIn("up", 1.2)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
@@ -65,14 +55,15 @@ export default function About() {
 						</motion.p>
 						<motion.p
 							className="text-base sm:text-lg text-black leading-relaxed font-aref"
-							variants={fadeIn("up", 1.4)} // Delay paling lama
+							variants={fadeIn("up", 1.4)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
 						>
 							Datang dan rasakan sendiri keaslian cita rasa Soto Ayam Semarang yang legendaris, sebuah warisan kuliner yang patut untuk dinikmati dan diceritakan.
 						</motion.p>
-					</motion.div>
+
+					</div>
 
 				</div>
 
