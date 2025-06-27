@@ -152,7 +152,7 @@ export default function Menu() {
 					>
 						<motion.div
 							className="w-full md:w-1/2 lg:w-2/5 flex justify-center"
-							variants={fadeIn("right", 0.9)}
+							variants={fadeIn("right", 0.6)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}
@@ -166,7 +166,7 @@ export default function Menu() {
 
 						<motion.div
 							className="w-full md:w-1/2 lg:w-3/5 text-center md:text-left text-gray-900"
-							variants={fadeIn("left", 0.9)}
+							variants={fadeIn("left", 0.6)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}

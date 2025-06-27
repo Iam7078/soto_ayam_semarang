@@ -26,7 +26,7 @@ export default function Footer() {
 
 					<motion.div
 						className="mb-6 md:mb-0 col-span-2"
-						variants={fadeIn("up", 0.5)}
+						variants={fadeIn("up", 0.4)}
 						initial="hidden"
 						whileInView="show"
 						viewport={{ once: false, amount: 0.2 }}
@@ -34,14 +34,14 @@ export default function Footer() {
 						<h3 className="text-lg font-semibold text-black mb-4">Hubungi Kami</h3>
 						<p className="text-sm font-aref font-bold">
 							Jalan Raya Salatiga Muncul Sraten, Tuntang, Gedangan, Tuntang, Kecandran, Kec. Sidomukti, Kabupaten Semarang, Jawa Tengah 50773, Indonesia<br />
-							Email: <a href="mailto:info@sotoayamsemarang.com" className="hover:underline">ilhammahfuri12@gmail.com</a><br />
+							Email: <a href="mailto:info@sotoayamsemarang.com" className="hover:underline">sotoayamsemarang@gmail.com</a><br />
 							Telepon: <a href="tel:+6281234567890" className="hover:underline">+62 812 3456 7890</a>
 						</p>
 					</motion.div>
 
 					<motion.div
 						className="mb-6 md:mb-0"
-						variants={fadeIn("up", 0.7)}
+						variants={fadeIn("up", 0.4)}
 						initial="hidden"
 						whileInView="show"
 						viewport={{ once: false, amount: 0.2 }}
@@ -53,7 +53,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-black hover:text-gray-700 transition-colors duration-200"
-								variants={fadeIn("up", 0.9)}
+								variants={fadeIn("up", 0.5)}
 								initial="hidden"
 								whileInView="show"
 								viewport={{ once: false, amount: 0.2 }}
@@ -65,7 +65,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-black hover:text-gray-700 transition-colors duration-200"
-								variants={fadeIn("up", 1.0)}
+								variants={fadeIn("up", 0.6)}
 								initial="hidden"
 								whileInView="show"
 								viewport={{ once: false, amount: 0.2 }}
@@ -77,7 +77,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-black hover:text-gray-700 transition-colors duration-200"
-								variants={fadeIn("up", 1.1)}
+								variants={fadeIn("up", 0.7)}
 								initial="hidden"
 								whileInView="show"
 								viewport={{ once: false, amount: 0.2 }}
@@ -89,7 +89,7 @@ export default function Footer() {
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-black hover:text-gray-700 transition-colors duration-200"
-								variants={fadeIn("up", 1.2)}
+								variants={fadeIn("up", 0.8)}
 								initial="hidden"
 								whileInView="show"
 								viewport={{ once: false, amount: 0.2 }}
@@ -102,7 +102,7 @@ export default function Footer() {
 
 				<motion.hr
 					className="border-black my-8 border-2"
-					variants={fadeIn("up", 1.4)}
+					variants={fadeIn("up", 0.8)}
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: false, amount: 0.2 }}
@@ -110,7 +110,7 @@ export default function Footer() {
 
 				<motion.div
 					className="text-center text-sm font-aref font-bold text-gray-500"
-					variants={fadeIn("up", 1.6)}
+					variants={fadeIn("up", 0.8)}
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: false, amount: 0.2 }}

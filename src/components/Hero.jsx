@@ -10,14 +10,14 @@ export default function Hero() {
 		>
 			<motion.div
 				className="text-black max-w-2xl mx-auto px-4 py-8 sm:px-6 md:px-8 lg:px-12"
-				variants={fadeIn("up", 0.6)}
+				variants={fadeIn("up", 0.2)}
 				initial="hidden"
 				whileInView="show"
 				viewport={{ once: false, amount: 0 }}
 			>
 				<motion.h1
 					className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight sm:leading-tight md:leading-tight lg:leading-tight"
-					variants={fadeIn("down", 0.6)}
+					variants={fadeIn("down", 0.4)}
 					initial="hidden"
 					whileInView="show"
 					viewport={{ once: false, amount: 0.5 }}

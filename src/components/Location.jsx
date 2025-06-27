@@ -60,7 +60,7 @@ export default function Location() {
 					>
 						<motion.h3
 							className="text-2xl sm:text-3xl font-bold text-black mb-4"
-							variants={fadeIn("up", 1.2)}
+							variants={fadeIn("up", 1)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}
@@ -70,7 +70,7 @@ export default function Location() {
 
 						<motion.div
 							className="mb-6"
-							variants={fadeIn("up", 1.4)}
+							variants={fadeIn("up", 1.1)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}
@@ -83,7 +83,7 @@ export default function Location() {
 
 						<motion.div
 							className="mb-6"
-							variants={fadeIn("up", 1.6)}
+							variants={fadeIn("up", 1.2)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}
@@ -96,7 +96,7 @@ export default function Location() {
 
 						<motion.div
 							className="mb-6"
-							variants={fadeIn("up", 1.8)}
+							variants={fadeIn("up", 1.3)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}
@@ -110,7 +110,7 @@ export default function Location() {
 						{/* Animasi untuk Tombol */}
 						<motion.div
 							className="mt-4"
-							variants={fadeIn("up", 2.0)}
+							variants={fadeIn("up", 1.5)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.2 }}

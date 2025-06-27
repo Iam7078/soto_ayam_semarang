@@ -10,7 +10,7 @@ export default function About() {
 				<div className="flex flex-col md:flex-row items-center gap-10 md:gap-16 lg:gap-20">
 
 					<motion.div className="w-full md:w-1/2 lg:w-2/5 animate-fade-in-up"
-						variants={fadeIn("right", 0.6)}
+						variants={fadeIn("right", 0.2)}
 						initial="hidden"
 						whileInView="show"
 						viewport={{ once: false, amount: 0.3 }}
@@ -27,7 +27,7 @@ export default function About() {
 
 						<motion.h2
 							className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black mb-6 leading-tight"
-							variants={fadeIn("down", 0.8)}
+							variants={fadeIn("down", 0.4)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
@@ -37,7 +37,7 @@ export default function About() {
 
 						<motion.p
 							className="text-base sm:text-lg text-black leading-relaxed font-aref mb-4"
-							variants={fadeIn("up", 1)}
+							variants={fadeIn("up", 0.4)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
@@ -46,7 +46,7 @@ export default function About() {
 						</motion.p>
 						<motion.p
 							className="text-base sm:text-lg text-black leading-relaxed font-aref mb-4"
-							variants={fadeIn("up", 1.2)}
+							variants={fadeIn("up", 0.6)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
@@ -55,7 +55,7 @@ export default function About() {
 						</motion.p>
 						<motion.p
 							className="text-base sm:text-lg text-black leading-relaxed font-aref"
-							variants={fadeIn("up", 1.4)}
+							variants={fadeIn("up", 0.6)}
 							initial="hidden"
 							whileInView="show"
 							viewport={{ once: false, amount: 0.3 }}
